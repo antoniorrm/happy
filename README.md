@@ -49,7 +49,7 @@ The web and mobile project used an external API to load the states and cities of
 
 <!-- -  [IBGE](https://servicodados.ibge.gov.br/api/docs/localidades) -->
 
-> -->
+> 
 
 ## 👊🏼 Contributing
 
