@@ -73,9 +73,10 @@
   align-items: center;
   justify-content: center;
 
-  transition: background-color 0.2s;
+  transition: 0.5s;
 }
 
 .content-wrapper .enter-app:hover {
   background: #96feff;
+  border-radius: 0px;
 }
