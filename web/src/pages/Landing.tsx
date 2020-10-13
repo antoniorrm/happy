@@ -17,8 +17,8 @@ function Landing() {
         </main>
 
         <div className="location">
-          <strong>Ceará</strong>
-          <span>Canindé</span>
+          <strong>Canindé</strong>
+          <span>Ceará</span>
         </div>
 
         <Link to="/app" className="enter-app">

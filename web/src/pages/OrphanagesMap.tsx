@@ -18,8 +18,8 @@ function OrphanagesMap() {
           <p>Muitas crianças estão esperando a sua visita :)</p>
         </header>
         <footer>
-          <strong>Ceará</strong>
-          <span>Canindé</span>
+          <strong>Canindé</strong>
+          <span>Ceará</span>
         </footer>
       </aside>
       <Map
