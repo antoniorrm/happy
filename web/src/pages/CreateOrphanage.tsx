@@ -14,6 +14,10 @@ export default function CreateOrphanage() {
   const history = useHistory();
 
   const [position, setPosition] = useState({ latitude: 0, longitude: 0 });
+  const [positionView, setPositionView] = useState({
+    latitude: 0,
+    longitude: 0,
+  });
 
   const [name, setName] = useState("");
   const [about, setAbout] = useState("");
@@ -73,6 +77,20 @@ export default function CreateOrphanage() {
     history.push("/app");
   }
 
+  useEffect(() => {
+    if ("geolocation" in navigator) {
+      /* geolocation is available */
+      navigator.geolocation.getCurrentPosition(function (position) {
+        const { latitude, longitude } = position.coords;
+        return setPositionView({ latitude, longitude });
+      });
+    } else {
+      alert(
+        "I'm sorry, but geolocation services are not supported by your browser."
+      );
+    }
+  }, []);
+
   return (
     <div id="page-create-orphanage">
       <Sidebar />
@@ -82,7 +100,7 @@ export default function CreateOrphanage() {
             <legend>Dados</legend>
 
             <Map
-              center={[-27.2092052, -49.6401092]}
+              center={[positionView.latitude, positionView.longitude]}
               style={{ width: "100%", height: 280 }}
               zoom={15}
               onclick={handleMapClick}
