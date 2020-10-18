@@ -14,7 +14,7 @@ interface Orphanage {
   longitude: number;
   name: string;
   about: string;
-  instruction: string;
+  instructions: string;
   opening_hours: string;
   open_on_weekends: string;
   images: Array<{
@@ -109,7 +109,7 @@ export default function Orphanage() {
             <hr />
 
             <h2>Instruções para visita</h2>
-            <p>{orphanage.instruction}</p>
+            <p>{orphanage.instructions}</p>
 
             <div className="open-details">
               <div className="hour">

@@ -21,7 +21,7 @@ interface Orphanage {
 	longitude: number;
 	name: string;
 	about: string;
-	instruction: string;
+	instructions: string;
 	opening_hours: string;
 	open_on_weekends: string;
 	images: Array<{
@@ -66,9 +66,6 @@ export default function OrphanageDetails() {
 							<Image key={image.id} style={styles.image} source={{ uri: image.url }} />
 						);
 					})}
-
-					{/* <Image style={styles.image} source={{ uri: 'https://fmnova.com.br/images/noticias/safe_image.jpg' }} />
-          <Image style={styles.image} source={{ uri: 'https://fmnova.com.br/images/noticias/safe_image.jpg' }} /> */}
 				</ScrollView>
 			</View>
 
@@ -110,7 +107,7 @@ export default function OrphanageDetails() {
 
 				<Text style={styles.title}>Instruções para visita</Text>
 				<Text style={styles.description}>
-					{orphanage.instruction}
+					{orphanage.instructions}
 				</Text>
 
 				<View style={styles.scheduleContainer}>
