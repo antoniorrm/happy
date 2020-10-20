@@ -18,7 +18,7 @@
 ## 💻 Project ♥ by Rocketseat
 
 
-O Happy é uma aplicação que conecta pessoas à casas de acolhimento institucional para fazer o dia de muitas crianças mais feliz 💜  
+Happy is an application that connects people to institutional care homes to make many children's day happier 💜  
 <!-- # ![Home image](.images/capa.jpg) -->
 
 >
@@ -39,6 +39,14 @@ This project was developed with the following technologies:
 - [React Native](https://facebook.github.io/react-native/)
 - [Expo](https://expo.io/)
 - [TypeScript](https://www.typescriptlang.org/)
+
+>
+
+## 🧠 Next Step
+
+Increase the features proposed in Happy 2.0
+
+- [Desafio Happy 2.0](https://www.notion.so/Vers-o-2-0-do-Happy-c754db7a4d41469e8c2d00fcf75392c4)
 
 >
 
