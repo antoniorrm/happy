@@ -1,10 +1,7 @@
-<!-- # ![Home image](.images/home.png) -->
-
->
-
-<h1 style="color: #888" align="center">
-    Happy
+<h1 align="center">
+    <img alt="Happy" title="Happy" src=".github/logo.svg" />
 </h1>
+
 <p align="center">
   <img alt="Made by Antonio Raimundo" src="https://img.shields.io/badge/madeby-antoniorrm-brightgreen">
   <img alt="MIT license" src="https://img.shields.io/github/license/antoniorrm/happy">
@@ -12,12 +9,16 @@
   <img alt="GitHub stars" src="https://img.shields.io/github/stars/antoniorrm/happy">
 </p>
 
+<p align="center">
+  <img alt="Happy" src=".github/happy.png" width="100%">
+</p>
+
 >
 
-## 💻 Project
+## 💻 Project ♥ by Rocketseat
 
-This project was developed with the aim of connecting companies to make a difference every day. By Rocketseat
 
+O Happy é uma aplicação que conecta pessoas à casas de acolhimento institucional para fazer o dia de muitas crianças mais feliz 💜  
 <!-- # ![Home image](.images/capa.jpg) -->
 
 >
@@ -33,23 +34,13 @@ To access the layout mobile use [Figma](https://www.figma.com/file/aeqGagkQOB3ez
 
 This project was developed with the following technologies:
 
-- Node.js
-- TypeScript
-- React
-- React Native
-- Express
-- SQLite / Knex
-- Leaflet
+- [Node.js](https://nodejs.org/en/)
+- [React](https://reactjs.org)
+- [React Native](https://facebook.github.io/react-native/)
+- [Expo](https://expo.io/)
+- [TypeScript](https://www.typescriptlang.org/)
 
 >
-
-<!-- ## ☁️ External API
-
-The web and mobile project used an external API to load the states and cities of Brazil.
-
-<!-- -  [IBGE](https://servicodados.ibge.gov.br/api/docs/localidades) -->
-
-> 
 
 ## 👊🏼 Contributing
 
