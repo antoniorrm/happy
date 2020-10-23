@@ -5,7 +5,7 @@
 <p align="center">
   <img alt="Made by Antonio Raimundo" src="https://img.shields.io/badge/madeby-antoniorrm-brightgreen">
   <img alt="MIT license" src="https://img.shields.io/github/license/antoniorrm/happy">
-  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/antoniorrm/e-coleta">
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/antoniorrm/happy">
   <img alt="GitHub stars" src="https://img.shields.io/github/stars/antoniorrm/happy">
 </p>
 
